@@ -1,0 +1,15 @@
+.books-list-container {
+    min-height: 694px;
+    width: 1220px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.books-items {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
