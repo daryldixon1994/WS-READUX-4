@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+#users {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.posts-container {
+    font-family: "Raleway", sans-serif;
+}
+.posts {
+    width: 80%;
+    margin: auto;
+    padding: 25px;
+}
+.post {
+    width: 60%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+}
+h2 {
+    text-transform: capitalize;
+}

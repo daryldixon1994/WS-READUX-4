@@ -1,11 +1,18 @@
 import "./App.css";
-import Counter from "./components/Counter";
+import Users from "./components/Users";
+import Home from "./components/Home";
+import { Routes, Route } from "react-router-dom";
+import Layout from "./components/Layout";
+import UserPosts from "./components/UserPosts";
 function App() {
     return (
-        <div  className="App">
-            <Counter />
-        </div>
+        <Routes className="App">
+            <Route path="/" element={<Layout />}>
+                <Route index element={<Home />} />
+                <Route path="users" element={<Users />} />
+                <Route path="posts/:id" element={<UserPosts />} />
+            </Route>
+        </Routes>
     );
 }
-
 export default App;
